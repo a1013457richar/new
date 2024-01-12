@@ -3,7 +3,7 @@ const mongoose = require('mongoose')
 const connectDB = require("./config/db");
 const cors = require('cors')
 const path = require("path");
-
+//
 const userRoutes = require("./routes/userRoutes")
 const postRoutes = require("./routes/postRoutes")
 const postCategoriesRoutes = require("./routes/postCategoriesRoutes")
